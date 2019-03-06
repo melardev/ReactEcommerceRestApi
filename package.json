@@ -1,0 +1,33 @@
+{
+  "name": "react_shop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "latest",
+    "cross-env": "^5.2.0",
+    "material-ui": "^0.20.2",
+    "nprogress": "^0.2.0",
+    "prop-types": "latest",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-toastify": "^4.5.2",
+    "sweetalert2": "^8.2.6"
+  },
+  "scripts": {
+    "start": "cross-env PORT=4200 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
