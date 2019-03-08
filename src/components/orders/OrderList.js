@@ -30,7 +30,7 @@ class OrderList extends React.Component {
                     <div className="card-header">{order.tracking_number}</div>
                     <div className="card-body">
                         <h5 className="card-title">{order.order_status}</h5>
-                        <p className="card-text">{order.total_amount}$ for {order.order_items_count}</p>
+                        <p className="card-text">{order.total_price}$ for {order.order_items_count}</p>
                     </div>
                 </div>
             )
